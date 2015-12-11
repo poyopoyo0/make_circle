@@ -1,10 +1,12 @@
-//  円を表示する（アスキーアート）
+// 円を表示する（アスキーアート）
+// ©佐伯英子 http://saeki-ce.xsrv.jp/Cgengo.html
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
 
-void  main( )
+int main( )
 {
   char    buf[25][80];                   // 25x48文字分の配列
   int     yc,xc,r;                       // 中心,半径
